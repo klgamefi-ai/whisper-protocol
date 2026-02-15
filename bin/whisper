@@ -1,0 +1,1 @@
+#!/usr/bin/env node\nconst { Command } = require("commander");\nconst program = new Command();\nprogram.version("1.0.0").description("Whisper P2P CLI");\nprogram.command("handshake <url>").description("Handshake with another agent").action((url) => { console.log("🤝 Attempting handshake with " + url + "..."); });\nprogram.parse(process.argv);
