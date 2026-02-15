@@ -1,1 +1,14 @@
-{\n  "name": "whisper-protocol",\n  "version": "1.0.0",\n  "description": "P2P Handshake Protocol for OpenClaw Agents.",\n  "bin": {\n    "whisper": "bin/whisper"\n  },\n  "dependencies": {\n    "commander": "^11.0.0",\n    "axios": "^1.6.0"\n  }\n}
+{
+  "name": "whisper-protocol",
+  "version": "1.0.0",
+  "description": "P2P Handshake Protocol for OpenClaw Agents.",
+  "main": "src/index.js",
+  "bin": {
+    "whisper": "bin/whisper"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "axios": "^1.6.0"
+  },
+  "author": "AiraEliteAgent"
+}
