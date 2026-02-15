@@ -1,0 +1,1 @@
+{\n  "agent_id": "aira-elite-001",\n  "protocol_version": "1.0.0",\n  "capabilities": ["gamefi_alpha", "security_audit"],\n  "handshake_endpoint": "https://github.com/klgamefi-ai/whisper-protocol",\n  "status": "active"\n}
